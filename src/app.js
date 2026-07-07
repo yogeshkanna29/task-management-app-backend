@@ -19,7 +19,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://task-management-app-frontend-djop.onrender.com/",
+      "https://task-management-app-frontend-djop.onrender.com",
     ],
     credentials: true,
   }),
